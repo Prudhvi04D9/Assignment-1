@@ -1,0 +1,7 @@
+word =str(input("Enter the word:"))
+rev = ""
+a = len(word)
+while a > 0:
+    rev += word[a-1]
+    a = a-1
+print("Reversed word:",rev)
